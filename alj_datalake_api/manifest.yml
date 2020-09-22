@@ -1,0 +1,10 @@
+applications:
+-  name: alj-datalake-api
+   memory: 1G
+   path: target/alj_datalake_api-0.0.1-SNAPSHOT.jar
+   random-route: false
+   
+   buildpacks: 
+      - java_buildpack
+   services:
+   - ALJDEVPOC-hdiDATALAKEDB-S0020815777QTiOhz644TjCUFs
